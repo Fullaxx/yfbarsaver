@@ -1,0 +1,8 @@
+*~
+*.gz
+*.xz
+*.csv
+*.json
+*.pickle
+*.results.txt
+.~lock.*#
