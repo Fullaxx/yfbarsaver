@@ -11,7 +11,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # ------------------------------------------------------------------------------
 # Install software and clean up
 RUN apt-get update && \
-	apt-get install -y --no-install-recommends python3-pip tzdata && \
+	apt-get install -y --no-install-recommends python3-pip tzdata xz-utils && \
 	pip3 install yfinance && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*

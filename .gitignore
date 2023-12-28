@@ -6,3 +6,4 @@
 *.pickle
 *.results.txt
 .~lock.*#
+.*.swp

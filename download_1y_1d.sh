@@ -15,3 +15,4 @@ export PICKLE_FILENAME="yf-${NOW}.${TRADE_PERIOD}.${TRADE_INTERVAL}.pickle"
 
 # Download and Pickle our trade data
 ${APPDIR}/pickle_my_tickers.py
+xz ${PICKLE_FILENAME}
